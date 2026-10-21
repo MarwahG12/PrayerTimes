@@ -1,0 +1,19 @@
+﻿{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "checkJs": false
+  },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.jsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".expo",
+    "android",
+    "ios",
+    "typescript-backup"
+  ]
+}
